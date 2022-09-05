@@ -1,0 +1,96 @@
+body {
+    background: #0e162a;
+    font-family: ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #cad5e0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+header h1 {
+    font-size: 35px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.desc {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input { 
+    width: 90%;
+    padding: 10px;
+    font-size: 23px;
+    background: #10172a;
+    border:1px solid #cad5e0;
+    color: #cad5e0;
+    border-radius: 5px;
+}
+
+.list  {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fizzes {
+    background: #10172a;
+    border:1px solid #cad5e0;
+    margin: 10px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delE {
+    background: #f93931;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s;
+}
+
+
+.delE:hover {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.ligth {
+    position: absolute;
+    width: 80px;
+    right: 1px;
+    top: 12px;
+}
+
+.ligth2 {
+    position: absolute;
+    width: 80px;
+    left: 1px;
+    top: 12px;
+    transform: scaleX(-1);
+}
